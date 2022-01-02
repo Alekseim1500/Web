@@ -29,7 +29,10 @@ footer{
 }
 
 
-
+.content{
+    position:fixed;
+    display: inline-block;
+}
 
 
 
@@ -124,7 +127,7 @@ footer{
 
 .center p{
     margin-top: 25px;
-    margin-left: 140px;
+    margin-left: 240px;
     margin-right: 40px;
 }
 
@@ -323,7 +326,7 @@ footer{
     .left_menu {
         padding: 10px 15px;
         width: 75px;
-        height: 200px;
+        height: 150px;
         margin-top:5px;
         margin-left:5px;  
       }
