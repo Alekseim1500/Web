@@ -3,7 +3,7 @@
 }
 
 
-.home__page{
+.home_page{
     position: table; 
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
 }
 
 .content{
-    position:absolute;
+    position: absolute;
 }
 
 
@@ -172,12 +172,12 @@ footer{
     opacity:50%;
 }
 
-.header_news{
+.header_HEI{
     margin-top:25px
 }
 
 
-.center_news{
+.center_HEI{
     position: inherit;
     display: inline-block;
     vertical-align: bottom;
@@ -186,15 +186,16 @@ footer{
     margin-left: 350px;
 }
 
-.center_news_list{
+.center_HEI_list{
     display: inline-block;
     width: 600px;
     list-style: none;
     padding: 0;
     margin-top: 0px;
+    text-align: center;
 }
 
-.center_news_list a{
+.center_HEI_list a{
     list-style: none;
     text-decoration: none;
     outline: none;
@@ -207,7 +208,7 @@ footer{
 }
 
 
-.center_news_list h4:hover{
+.center_HEI_list h4:hover{
     opacity:50%;
 
 }
@@ -227,7 +228,7 @@ footer{
         font-size: 14px
     }
 
-    .header_news{
+    .header_HEI{
         font-size: 16px;
     }
 
@@ -270,14 +271,15 @@ footer{
 
 
     
-    .center_news{
+    .center_HEI{
+
         height: 300px;
         margin-top: 10px;
         margin-left: 200px;
     }
 
 
-    .center_news_list{
+    .center_HEI_list{
         width: 400px;
         padding: 0;
         margin-top: 0px;
@@ -342,8 +344,8 @@ footer{
     height: 50px;
     }
 
-    .header_news{
-        margin-top: 15px;
+    .header_HEI{
+        margin-top: 20px;
     }
 
 
@@ -373,15 +375,15 @@ footer{
 
 
 
-    .center_news{
+    .center_HEI{
 
         height: 250px;
         margin-top: 10px;
-        margin-left:150px;
+        margin-left: 150;
     }
 
 
-    .center_news_list{
+    .center_HEI_list{
         width: 250px;
         padding: 0;
         margin-top: 0px;

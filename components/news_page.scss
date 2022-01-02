@@ -12,7 +12,8 @@
 }
 
 .content{
-    position:fixed;
+    position:absolute;
+
 }
 
 
@@ -216,6 +217,7 @@ footer{
     position: inherit;
     display: inline-block;
     margin-left: 150px;
+    width: 800px;
 }
 
 @media (max-width: 1024px) {
@@ -279,7 +281,7 @@ footer{
 
         height: 300px;
         margin-top: 10px;
-        margin-left: 15%;
+        margin-left: 200;
     }
 
 
@@ -383,7 +385,7 @@ footer{
 
         height: 250px;
         margin-top: 10px;
-        margin-left: 15%;
+        margin-left: 75px;
     }
 
 
