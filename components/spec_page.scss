@@ -3,7 +3,7 @@
 }
 
 
-.home_page{
+.home__page{
     position: table; 
     display: flex;
     flex-direction: column;
@@ -12,7 +12,8 @@
 }
 
 .content{
-    position: absolute;
+    position:absolute;
+
 }
 
 
@@ -119,7 +120,15 @@ footer{
     text-align: center;
 }
 
-
+.send_FB{
+    display: inline-block;
+    margin-left:80%;
+    text-decoration: none;
+    border: 1px solid;
+    width: 75px;
+    margin-top: 20px;
+    text-align: center;
+}
 
 .foot{
     display: inline-flex;
@@ -127,7 +136,9 @@ footer{
 
 
 
-
+.send_FB_text{
+    margin: 0px;
+}
 
 
 
@@ -135,7 +146,7 @@ footer{
   padding: 20px 30px;
   width: 150px;
   height: 250px;
-  margin-top:20px;
+  margin-top:10px;
   margin-left:10px;  
   display: inline-block;
   vertical-align: bottom;
@@ -172,32 +183,47 @@ footer{
     opacity:50%;
 }
 
-.head_spec{
-    text-align: center;
-    margin-top: 10px;
+.header_news{
+    margin-top:25px
 }
 
 
-
-.center_HEI{
+.spec_page{
     position: inherit;
     display: inline-block;
     vertical-align: bottom;
-    height: 500px;
-    margin-top: 25px;
-    margin-left: 350px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 140px;
 }
 
-.center_HEI_list{
+.spec_page_list{
     display: inline-block;
     width: 600px;
     list-style: none;
     padding: 0;
     margin-top: 0px;
-    text-align: center;
 }
 
-.center_HEI_list a{
+.spec_page1{
+    position: inherit;
+    display: inline-block;
+    vertical-align: bottom;
+    height: 270px;
+    margin-top: 300px;
+    margin-left: 140px;
+}
+
+.spec_page_list1{
+    display: flex;
+    position: relative;
+    width: 600px;
+    list-style: none;
+    padding: 0;
+    margin-top: 0px;
+}
+
+.spec_page_list a{
     list-style: none;
     text-decoration: none;
     outline: none;
@@ -210,11 +236,60 @@ footer{
 }
 
 
-.center_HEI_list h4:hover{
+.spec_page_list h4:hover{
     opacity:50%;
 
 }
 
+.spec_page_text{
+    position: inherit;
+    display: inline-block;
+    margin-left: 250px;
+    width: 800px;
+}
+
+
+
+.rating-area {
+	overflow: hidden;
+	width: 300px;
+    margin-left: 25px;
+    margin-top:-20px;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 20px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 20px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
 
 @media (max-width: 1024px) {
 
@@ -230,7 +305,7 @@ footer{
         font-size: 14px
     }
 
-    .header_HEI{
+    .header_news{
         font-size: 16px;
     }
 
@@ -273,15 +348,15 @@ footer{
 
 
     
-    .center_HEI{
+    .center_news{
 
         height: 300px;
         margin-top: 10px;
-        margin-left: 200px;
+        margin-left: 200;
     }
 
 
-    .center_HEI_list{
+    .center_news_list{
         width: 400px;
         padding: 0;
         margin-top: 0px;
@@ -346,7 +421,7 @@ footer{
     height: 50px;
     }
 
-    .header_spec{
+    .header_news{
         margin-top: 15px;
     }
 
@@ -374,18 +449,18 @@ footer{
         margin-left: -19%;
         width: 101px;
       }
+      
+      
 
-
-
-    .center_HEI{
+    .center_news{
 
         height: 250px;
         margin-top: 10px;
-        margin-left: 150;
+        margin-left: 75px;
     }
 
 
-    .center_HEI_list{
+    .center_news_list{
         width: 250px;
         padding: 0;
         margin-top: 0px;
